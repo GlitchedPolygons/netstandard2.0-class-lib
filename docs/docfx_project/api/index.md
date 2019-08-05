@@ -1,2 +1,2 @@
-# PLACEHOLDER
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+# Welcome to this API Documentation
+## To get started navigating these docs, expand the table of content on this page and dive right in!
