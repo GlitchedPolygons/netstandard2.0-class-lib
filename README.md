@@ -6,7 +6,7 @@
 
 Explain how to install it, what dependencies it has, how to quickly get started (maybe link to some more detailed _Getting Started_ guide somewhere else), where to find extensive API docs, how to build from source, stuff like that, etc...
 
-Remember to rename the project and its namespace. Then customize the .csproj file to match your choices (root namespace and assembly name fields). 
+Remember to rename the solution file, the project(s) and the namespaces. Then customize the .csproj file to make it match your choices (root namespace and assembly name fields). 
 
 Finally, consider making your library open source by adding a permissive license such as the [MIT](https://en.wikipedia.org/wiki/MIT_License) or the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license to your repo root and replacing the placeholders with the corresponding copyright year and author name. You'd then be ready to do the open source community a favor and submit your package to [NuGet](https://nuget.org).
 * Please note: for NuGet packages you need to include the license in your .csproj in some way. You can for example add the following snippet down below to your class library's .csproj file to have the Apache-2.0 license applied to your NuGet package. It's best if that license matches the one you have added to your repository root directory...
