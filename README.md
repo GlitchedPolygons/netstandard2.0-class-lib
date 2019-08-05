@@ -14,13 +14,8 @@ Finally, consider making your library open source by adding a permissive license
 ```
 <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 ```
-
+---
 Also, don't forget to `git lfs track` binary files that are project-relevant. 
 * E.g. `git lfs track "*.png"` to use [Git LFS](https://git-lfs.github.com/) for .png files.
 * Edit the .gitignore to your needs
 * Replace the [shields](https://shields.io) at the top of this file with your [Circle CI](https://circleci.com) and [Travis CI](https://travis-ci.org) pipeline URLs.
-
----
-
-# IMPORTANT NOTE
-**To clone this template repo correctly, you need to have git lfs installed and set up on your machine!**
