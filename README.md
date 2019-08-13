@@ -1,3 +1,4 @@
+[![License Shield](https://img.shields.io/badge/license-BSD%203--Clause-brightgreen)](https://github.com/GlitchedPolygons/asp.net-core-2.2-cross-platform-gui/blob/master/LICENSE)
 [![AppVeyor](https://ci.appveyor.com/api/projects/status/tkf68xbsdoa1ttfq/branch/master?svg=true)](https://ci.appveyor.com/project/GlitchedPolygons/netstandard2-0-class-lib/branch/master) [![Travis](https://travis-ci.org/GlitchedPolygons/netstandard2.0-class-lib.svg?branch=master)](https://travis-ci.org/GlitchedPolygons/netstandard2.0-class-lib) [![CircleCI](https://circleci.com/gh/GlitchedPolygons/netstandard2.0-class-lib.svg?style=shield)](https://circleci.com/gh/GlitchedPolygons/netstandard2.0-class-lib) 
 
 # TO DO
