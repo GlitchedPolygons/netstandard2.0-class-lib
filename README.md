@@ -9,14 +9,14 @@ Explain how to install it, what dependencies it has, how to quickly get started 
 
 Remember to rename the solution file, the project(s) and the namespaces. Then customize the .csproj file to make it match your choices (root namespace and assembly name fields). 
 
-Finally, consider making your library open source by adding a permissive license such as the [MIT](https://en.wikipedia.org/wiki/MIT_License) or the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license to your repo root and replacing the placeholders with the corresponding copyright year and author name. You'd then be ready to do the open source community a favor and submit your package to [NuGet](https://nuget.org).
-* Please note: for NuGet packages you need to include the license in your .csproj in some way. You can for example add the following snippet down below to your class library's .csproj file to have the Apache-2.0 license applied to your NuGet package. It's best if that license matches the one you have added to your repository root directory...
+Finally, consider making your library open source and to do the dev community a favor by submitting your package to [NuGet](https://nuget.org).
+* Please note: for NuGet packages you need to include the license in your .csproj in some way. You can for example add the following snippet down below to your class library's .csproj file to have the [BSD 3-Clause License](https://tldrlegal.com/license/bsd-3-clause-license-(revised)) applied to your NuGet package: it uses an [SPDX License Identifier](https://spdx.org/licenses/) to recognize and link the license. It's best if that license matches the one that you have in your repository root directory...
 
 ```
-<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 ```
 ---
 Also, don't forget to `git lfs track` binary files that are project-relevant. 
 * E.g. `git lfs track "*.png"` to use [Git LFS](https://git-lfs.github.com/) for .png files.
 * Edit the .gitignore to your needs
-* Replace the [shields](https://shields.io) at the top of this file with your [Circle CI](https://circleci.com) and [Travis CI](https://travis-ci.org) pipeline URLs.
+* Replace the [shields](https://shields.io) at the top of this file with your [Circle CI](https://circleci.com), [AppVeyor](https://ci.appveyor.com) and [Travis CI](https://travis-ci.org) pipeline URLs.
